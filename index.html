@@ -1,48 +1,79 @@
 <html>
-<head>
-<title></title>
-<style>
-            .info {
-                background: rgb(219, 235, 255);
-                height:200px;
+    <head>
+        <title> </title>
+        <style>
+
+         .a{
+             font-weight:bold;
+             font-family:'Arial';
+         }
+         .b{
+        
+             font-family:'Georgia';
+             font-size: large;
+         }
+         .info{
+            background-color:rgb(235, 235, 235);
+             height:200px;
                 width:auto;
                 overflow:auto;
-                font-family: "Helvetica", sans-serif;
-                text-align:center;   
- h2 {
-            color: rgb(205, 22, 222);
-        }  
-        
-       .pic {
+                font-family:'Cambria';
+                text-align:justify;   
+         }
+          .pic {
              width:auto;
-            }
-        
-       
-  h1{
-              color: rgb(0, 0, 0);
-            }
-                
-   background-gcolor="lightgreen"
+             height:auto;
+         }
          
-          
-
-</style>
-           
-</head>
-<body>
+         h1{
+            color: rgb(0, 153, 204);
+            font-family:'Calibri';
+            text-align:center;
+              
+            }
+            h2{
+            color: rgb(43, 32, 199);
+            font-family:'Times New Roman';
+            text-align:left;
+              
+            }
+             #s {color:rgb(0, 153, 204);
+            }
+        </style>
+    </head>
+    <body bgcolor=#B0F7FF >
+         <h1>Hosting</h1>
         
+      <img  class="pic" src="caracteristicas-hosting-web.webp">
+       
+        
+      <p><span class="a"> El hosting, o alojamiento web es un servicio donde podrás alojar todos los contenidos necesarios (textos, imágenes, bases de datos, emails…) para que tu web y correo sea accesible por cualquier usuario en internet en cualquier momento.
+       Del mismo modo que hotel aloja a sus huéspedes en habitaciones, un mismo servidor puede alojar varias webs con su correo y bases de datos dentro de la misma máquina, a cada uno de esos espacios los llamamos hosting.</span></p>
+       
+          <div class="info">
+<h2 id="s">Tipos de hosting</h2>
+<h2>Hosting compartido:</h2>
+<p><span class="b">Un hosting compartido es un espacio reservado, una parcela personal, dentro de un servidor compartido entre varios usuarios. Este servidor es capaz de alojar varias webs a la vez subdividiendo su espacio o capacidad de alojamiento en espacios más pequeños, donde reside cada uno de los sitios webs alojados.</span></p>
 
-<img  class="pic" src="caracteristicas-hosting-web.webp" width="300" height="100>
-<div class="info">
-<h2>Hosting</h2>
-<p>El hosting, o alojamiento web es un servicio donde podrás alojar todos los contenidos necesarios (textos, imágenes, bases de datos, emails…) para que tu web y correo sea accesible por cualquier usuario en internet en cualquier momento.
-Del mismo modo que hotel aloja a sus huéspedes en habitaciones, un mismo servidor puede alojar varias webs con su correo y bases de datos dentro de la misma máquina, a cada uno de esos espacios los llamamos hosting.</p>
+<h2>Hosting VPS:</h2>
+<p><span class="b">En esta modalidad de alojamiento dispones de un servidor virtual con unos recursos de CPU y RAM garantizados para tu alojamiento. Al tener una serie de recursos dedicados para tu web evitas problemas de falta de recursos derivados de los hostings compartidos. Este tipo de alojamiento es el paso intermedio entre una máquina dedicada y el hosting compartido.</span></p>
+<p><span class="b">En este caso dispones de un servidor físico enteramente para tu proyecto. Esto significa que tienes toda la potencia de CPU y RAM disponible del servidor en exclusiva para tu web. Se recomienda este tipo de servicios para web con un alto consumo de recursos.</span></p>
+<h2>Hosting Cloud:</h2>
+<p><span class="b">Es un servicio de alojamiento donde los recursos de tu máquina se adaptan al consumo de la web. De esta forma cuando la web tenga pocas visitas, tendrá una cantidad de recursos asignados pequeña y cuando tengas picos de visitas, la potencia de la máquina aumentará para poder seguir ofreciendo un servicio de forma óptima. Los servicios de Cloud están pensados para ofrecer una cantidad de recursos superior a la que puede ofrecer un servidor dedicado y están pensados para las web más exigentes o los eventos más importantes.</span><p>
 
-<h1>Tipos de hosting</h1>
-<p style="font-family:Times New Roman">Hosting compartido:</p>
-<p style="font-family:'Courier New'">Un hosting compartido es un espacio reservado, una parcela personal, dentro de un servidor compartido entre varios usuarios. Este servidor es capaz de alojar varias webs a la vez subdividiendo su espacio o capacidad de alojamiento en espacios más pequeños, donde reside cada uno de los sitios webs alojados.</p>
+        </div>
+   <div class="a"> 
+<p>Una vez que cuentas con un hosting web para alojar los archivos de tu página, tus visitas pueden llegar hasta ellos a través de tu dominio.
 
-<h2>Hosting VPS:</h2>En esta modalidad de alojamiento dispones de un servidor virtual con unos recursos de CPU y RAM garantizados para tu alojamiento. Al tener una serie de recursos dedicados para tu web evitas problemas de falta de recursos derivados de los hostings compartidos. Este tipo de alojamiento es el paso intermedio entre una máquina dedicada y el hosting compartido.
-<h2>Hosting dedicado:</h2>En este caso dispones de un servidor físico enteramente para tu proyecto. Esto significa que tienes toda la potencia de CPU y RAM disponible del servidor en exclusiva para tu web. Se recomienda este tipo de servicios para web con un alto consumo de recursos.
-<h2>Hosting Cloud:</h2>Es un servicio de alojamiento donde los recursos de tu máquina se adaptan al consumo de la web. De esta forma cuando la web tenga pocas visitas, tendrá una cantidad de recursos asignados pequeña y cuando tengas picos de visitas, la potencia de la máquina aumentará para poder seguir ofreciendo un servicio de forma óptima. Los servicios de Cloud están pensados para ofrecer una cantidad de recursos superior a la que puede ofrecer un servidor dedicado y están pensados para las web más exigentes o los eventos más importantes.
-</div>
+Los dominios sirven para indicarle al navegador qué contenido quieres que te muestre. Al escribir webempresa.com en la barra de direcciones le estás indicando que quieres ver el contenido de nuestro sitio web.
+
+El navegador irá a buscar los contenidos del sitio web al hosting donde está alojado para mostrártelos pero ¿cómo sabe a qué alojamiento web tiene que ir a buscarlos? En este punto es donde entran en juego las DNS (también llamados Nameservers).
+
+Los diferentes equipos conectados a Internet no se localizan unos a otros mediante nombres, sino que utilizan unos códigos numéricos llamados IPs para comunicarse.
+
+Sin embargo… imagínate que tuvieses que recordar un número IP para cada sitio web que quieres visitar, ¡sería imposible! Por este motivo se creó el sistema de nombres de dominio, para facilitar esta tarea y que podamos usar nombres (más fáciles de recordar) en lugar de IPs para navegar por Internet.
+
+Cada dominio puede traducirse a una IP que será la del servidor en el que está alojado su contenido y sus cuentas de correo. Los DNS son los encargados de hacer posible esa traducción.</p> </div>
+
+    </body>
+</html>
